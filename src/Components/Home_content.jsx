@@ -6,7 +6,9 @@ const Home_content = ()=>{
             <div className="home-body">
                 <h1>
                     <span style={{color:"white"}}>Hi im </span> Issam
+                    
                 </h1>
+                <p>Front-end Developer</p>
                 <button>About Me</button>
             </div>
             <div className="home-pic">

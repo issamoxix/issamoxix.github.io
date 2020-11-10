@@ -49,3 +49,8 @@ body {
     opacity: 1;
   }
 }
+p {
+  color: var(--p-color);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 50px;
+}
