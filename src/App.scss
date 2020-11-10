@@ -1,0 +1,51 @@
+:root {
+  //color text
+  --h1-color: white;
+  --h2-color: white;
+  --bg-color: black;
+  --p-color: #46dbe3;
+  --inactive: rgb(73, 73, 73);
+
+  // color elements
+
+  --pr100: #49cad1;
+  --pr200: #1f767a;
+  --pr300: #46dbe3;
+  --pr400: #45eef7;
+  --pr500: #16a1a8;
+
+  //font-size
+  --h1-size: 2.488rem;
+  --h2-size: 2.074rem;
+  --h3-size: 1.728rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+}
+.container {
+  height: 100vh;
+  padding: 30px;
+}
+@keyframes slide_right {
+  from {
+    transform: translate3d(100%, 0px, 0px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide_left {
+  from {
+    transform: translate3d(-100%, 0px, 0px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

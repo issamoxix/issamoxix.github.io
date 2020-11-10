@@ -1,0 +1,46 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.home-body {
+  position: relative;
+  padding: 12px;
+}
+.home-body h1 {
+  color: var(--pr300);
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--h1-size);
+}
+.home-body button {
+  color: var(--pr300);
+  font-family: "Work Sans", sans-serif;
+  background-color: transparent;
+  font-size: var(--h3-size);
+  padding: 10px;
+  outline: none;
+  border-color: var(--pr300);
+  position: absolute;
+  right: 30%;
+  margin-top: 31px;
+  cursor: pointer;
+  width: 19rem;
+  transition: 0.2s linear;
+  &:hover {
+    background-color: var(--pr200);
+    color: var(--pr400);
+    border-color: transparent;
+  }
+}
+.home-pic {
+  margin: auto;
+  margin-top: 20px;
+}
+.pic {
+  animation: slide_right 1s linear;
+}
+.home-body {
+  animation: slide_left 1s linear;
+}
