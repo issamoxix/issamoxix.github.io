@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/issamoxix.github.io/static/css/main.28bca60f.chunk.css",
+    "main.js": "/issamoxix.github.io/static/js/main.10158f71.chunk.js",
+    "main.js.map": "/issamoxix.github.io/static/js/main.10158f71.chunk.js.map",
+    "runtime-main.js": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js",
+    "runtime-main.js.map": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js.map",
+    "static/js/2.3b323d86.chunk.js": "/issamoxix.github.io/static/js/2.3b323d86.chunk.js",
+    "static/js/2.3b323d86.chunk.js.map": "/issamoxix.github.io/static/js/2.3b323d86.chunk.js.map",
+    "index.html": "/issamoxix.github.io/index.html",
+    "static/css/main.28bca60f.chunk.css.map": "/issamoxix.github.io/static/css/main.28bca60f.chunk.css.map",
+    "static/js/2.3b323d86.chunk.js.LICENSE.txt": "/issamoxix.github.io/static/js/2.3b323d86.chunk.js.LICENSE.txt",
+    "static/media/profile.83683cf7.png": "/issamoxix.github.io/static/media/profile.83683cf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8271f1e.js",
+    "static/js/2.3b323d86.chunk.js",
+    "static/css/main.28bca60f.chunk.css",
+    "static/js/main.10158f71.chunk.js"
+  ]
+}
