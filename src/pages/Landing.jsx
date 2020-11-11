@@ -7,6 +7,7 @@ import { social_media } from '../Data/Links'
 const Landing = () => {
     return (
         <Wraper>
+            {/* landing page */}
             <Body>
                 <Header>
 
