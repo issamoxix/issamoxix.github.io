@@ -34,9 +34,15 @@ const Body = styled.div`
     color:white;
     
     width:624px;
+    
     display:flex;
     flex-direction:column;
     align-items:center;
+    @media (max-width:600px){
+        &{
+            width:auto;
+        }
+    }
 `
 const ProfileImage = styled.img`
     height:15rem;
