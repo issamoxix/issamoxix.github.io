@@ -10,7 +10,7 @@ const Landing = () => {
             <Body>
                 <Header>
 
-                <ProfileImage src={img} alt="Profile" onClick={redirect(social_media.github)} />
+                <ProfileImage src={img} alt="Profile" onClick={()=>redirect(social_media.github)} />
                     <h1>
                         Hi Im <Name>Issam</Name>
                     </h1>
@@ -28,6 +28,7 @@ const Wraper = styled.div`
     flex-direction:column;
     align-items:center;
     width:100%;
+    animation:lan 2s linear;
 `
 const Body = styled.div`
     color:white;

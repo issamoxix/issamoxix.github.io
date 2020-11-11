@@ -31,6 +31,21 @@ body {
   height: 100vh;
   padding: 30px;
 }
+
+p {
+  color: var(--p-color);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 50px;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--h1-size);
+}
+* {
+  outline: none;
+}
+
+// Animations
 @keyframes slide_right {
   from {
     transform: translate3d(100%, 0px, 0px);
@@ -49,15 +64,11 @@ body {
     opacity: 1;
   }
 }
-p {
-  color: var(--p-color);
-  font-family: "Courier New", Courier, monospace;
-  line-height: 50px;
-}
-h1 {
-  font-family: "Work Sans", sans-serif;
-  font-size: var(--h1-size);
-}
-* {
-  outline: none;
+@keyframes lan {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
