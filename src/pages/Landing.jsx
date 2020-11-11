@@ -32,7 +32,7 @@ const Wraper = styled.div`
 `
 const Body = styled.div`
     color:white;
-    border:1px solid black;
+    
     width:624px;
     display:flex;
     flex-direction:column;
