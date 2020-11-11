@@ -12,7 +12,7 @@ const Home_content = ()=>{
                 <button>About Me</button>
             </div>
             <div className="home-pic">
-                <img className="pic" src="./images/exp.png" />
+                <img className="pic" alt="pic" src="./images/exp.png" />
             </div>
         </div>
     )

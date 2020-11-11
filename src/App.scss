@@ -54,3 +54,10 @@ p {
   font-family: "Courier New", Courier, monospace;
   line-height: 50px;
 }
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--h1-size);
+}
+* {
+  outline: none;
+}

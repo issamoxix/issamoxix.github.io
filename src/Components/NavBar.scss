@@ -1,13 +1,13 @@
 .NavBar-container {
   color: var(--h1-color);
-  border-bottom: 1px solid var(--pr200);
+  // border-bottom: 1px solid var(--pr200);
   display: flex;
 }
 ul li {
   display: inline;
   color: var(--pr100);
   font-family: "Work Sans", sans-serif;
-  margin-right: 30px;
+  margin-right: 40px;
   cursor: pointer;
 }
 a {
@@ -16,7 +16,7 @@ a {
 .Nav {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 img {
 }
