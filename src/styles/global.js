@@ -1,0 +1,1 @@
+export const primaryFont = `"Work Sans", sans-serif`

@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
  const Input = () => {
     return (
         <Container>
-            <PrimaryButton>About</PrimaryButton>
-            <PrimaryButton>Skills</PrimaryButton>
-            <PrimaryButton>Projects</PrimaryButton>
+            <Link to="/About"><PrimaryButton>About</PrimaryButton></Link>
+            <Link to ="Skills"><PrimaryButton>Skills</PrimaryButton></Link>
+            <Link to="Projects"><PrimaryButton>Projects</PrimaryButton></Link>
         </Container>
     )
 }
