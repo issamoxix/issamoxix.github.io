@@ -20,13 +20,13 @@ const PrimaryButton = styled.button`
     border-color:transparent;
     margin:5px 0;
     width:350px;
-    background-color:var(--pr500);
+    background-color:${({theme})=>theme.pr500};
     font-family: "Work Sans", sans-serif;
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-size:30px;
     padding:5px 0 ;
     border-radius:10px;
-    box-shadow: 0px 0px 5px var(--pr100);
+    box-shadow: 0px 0px 5px ${({theme})=>theme.pr100};
     transition:all 0.2s linear;
     cursor:pointer;
     &:hover {

@@ -43,7 +43,7 @@ const Skills = () => {
     )
 }
 const Container =styled.div`
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     
 `
@@ -55,13 +55,13 @@ const LeftContainer = styled.div`
     width:50%;
 `
 const LeftTitle = styled.h1`
-    color:var(--pr400);
+    color:${({theme})=>theme.pr400};
     font-weight:200;
 `
 const Para = styled.p`
     width:40%;
     line-height:20px;
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     font-weight:200;
 `
@@ -69,7 +69,7 @@ const RightContainer = styled.div`
 
 `
 const Lang = styled.p`
-    color:var(--pr300);
+    color:${({theme})=>theme.pr300};
     /* margin-bottom:5px; */
 `
 const Pattern = styled.img`

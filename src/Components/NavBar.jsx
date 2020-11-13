@@ -1,13 +1,23 @@
-import React from 'react'
+import React,{useState,useContext} from 'react'
 
 import styled from 'styled-components'
 import {primaryFont} from '../styles/global'
 import sun from '../assets/images/sun.png'
+import moon from '../assets/images/moon.png'
 import { Link } from 'react-router-dom'
+import {ThemeContext} from '../utils/themeContext'
+import ToggleTheme from './ToggleTheme'
 const NavBar = ()=>{
+    // const [toggletheme,settoggletheme] = useState(false)
+    
     return (
         <Container>
             <List>
+            <Link to="/">
+                <ListItems>
+                    Home
+                </ListItems>
+                </Link>
                 <Link to="/About">
                 <ListItems>
                     About
@@ -24,12 +34,13 @@ const NavBar = ()=>{
                 </ListItems>
                 </Link>
             </List>
-            <ThemeMode src={sun} />
+            {/* <ThemeMode src={theme?moon:sun} onClick={()=>setTheme(!theme)} /> */}
+            <ToggleTheme/>
         </Container>
     )
 }
 const Container = styled.div`
-    color:white;
+    color:${({theme})=>theme.main_color};
     height:70px;
     width:100%;
     position:relative;
@@ -43,18 +54,12 @@ const List = styled.ul`
 `
 const ListItems = styled.li`
     margin-right:30px;
-    color:white;
+    color:${({theme})=>theme.main_color};
     cursor:pointer;
     transition:all 0.2s linear;
     &:hover {
-        color:var(--pr100);
+        color:${({theme})=>theme.pr100};
     }
 `
-const ThemeMode = styled.img`
-    position:absolute;
-    right:0;
-    top:0;
-    height:2rem;
-    cursor:pointer;
-`
+
 export default NavBar

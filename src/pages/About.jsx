@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import NavBar from '../Components/NavBar'
 import {primaryFont} from '../styles/global'
 import Image1 from '../assets/images/undraw1.png'
+import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <Container>
@@ -24,6 +25,7 @@ const About = () => {
                      I am passionate about contributing 
                     to open source and realising ideas .
                     </Para>
+                    
                     <PrimaryButton>Let's Talk</PrimaryButton>
                 </RightContainer>
             </AboutBody>
@@ -31,11 +33,12 @@ const About = () => {
     )
 }
 const Container = styled.div`
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
 `
 const HeadTitle = styled.h1`
     font-size:var(--h1-size);
+    font-weight:200;
 `
 const AboutBody = styled.div`
     display:flex;
@@ -52,19 +55,19 @@ const RightContainer = styled.div`
     
 `
 const AboutTitle = styled.h1`
-    color:var(--pr400);
+    color:${({theme})=>theme.pr400};
     
 `
 const Para = styled.p`
     margin:20px 0 0 0;
-    color:var(--pr300);
+    color:${({theme})=>theme.pr300};
     width:100%;
     line-height:20px;
 `
 const PrimaryButton = styled.button`
     background-color:transparent;
-    border:3px solid var(--pr200);
-    color:var(--pr300);
+    border:3px solid ${({theme})=>theme.pr200};
+    color:${({theme})=>theme.pr300};
     font-size:var(--h2-size);
     width:100%;
     padding:10px;
@@ -72,8 +75,8 @@ const PrimaryButton = styled.button`
     cursor:pointer;
     transition: all 0.2s linear;
     &:hover {
-        background-color:var(--pr300);
-        color:var(--pr200);
+        background-color:${({theme})=>theme.pr300};
+        color:${({theme})=>theme.pr200};
         border-color:transparent;
     }
 `

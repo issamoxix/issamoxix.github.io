@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import NavBar from '../Components/NavBar';
 import Proj from '../Components/Proj';
 import {primaryFont} from '../styles/global';
+import {ProjectsData} from '../Data/Projects' 
 const Projects = () => {
     return (
         <Container>
@@ -12,17 +13,31 @@ const Projects = () => {
             </ProjectsTitle>
             <ProjContainer>
                 <Projectz>
-                    <Proj />
-                    <Proj />
-                    <Proj />
-                    <Proj />
+                    <Proj 
+                    title={ProjectsData.Project1.Name} 
+                    description={ProjectsData.Project1.Description} 
+                    link={ProjectsData.Project1.Link}/> 
+                    <Proj 
+                    title={ProjectsData.Project2.Name} 
+                    description={ProjectsData.Project2.Description} 
+                    link={ProjectsData.Project2.Link}/>
+                    <Proj 
+                    title={ProjectsData.Project3.Name} 
+                    description={ProjectsData.Project3.Description} 
+                    link={ProjectsData.Project3.Link}/>
+                    <Proj 
+                    title={ProjectsData.Project4.Name} 
+                    description={ProjectsData.Project4.Description} 
+                    link={ProjectsData.Project4.Link}/>
+                 
                 </Projectz>
+                
             </ProjContainer>     
         </Container>
     )
 }
 const Container = styled.div`
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-family:${primaryFont}
 `
 const ProjectsTitle = styled.h1`

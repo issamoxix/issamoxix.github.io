@@ -1,23 +1,21 @@
 import React from 'react'
+
 import styled from 'styled-components'
 import {primaryFont} from '../styles/global'
 
-const Proj = () => {
+const Proj = ({title,description,link}) => {
     return (
         <Pro>
             <ProjTitle>
-                Project Name
+                {title}
             </ProjTitle>
             <Para>
-            Description about the project and
-what not dqd qspod qsd  
-Description about the project and
-what not dqd qspod qsd  
-Description about the project and
-what not dqd qspod qsd  
+                    {description}
             </Para>
-            <More>
+            <More href={link}>
+                
                 Learn More
+                
             </More>
         </Pro>
     )
@@ -29,16 +27,16 @@ const Pro = styled.div`
     position:relative;
 `
 const ProjTitle = styled.h2`
-    color:var(--pr300);
+    color:${({theme})=>theme.pr300};
 `
 const Para = styled.p`
-    color:white;
+    color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     line-height:20px;
 `
 const More = styled.a`
     cursor:pointer;
-    color:var(--pr400);
+    color:${({theme})=>theme.pr400};
     position:absolute;
     bottom: 0;
     right:0;

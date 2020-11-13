@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import img from '../assets/images/profile.png'
 import Input from '../Components/Input'
 import L_Footer, { redirect } from '../Components/L_Footer'
+import ToggleTheme from '../Components/ToggleTheme'
 import { social_media } from '../Data/Links'
 const Landing = () => {
     return (
@@ -20,11 +21,12 @@ const Landing = () => {
                 <Input/>
                 <L_Footer />
             </Body>
+            <ToggleTheme />
         </Wraper>
     )
 }
 const Wraper = styled.div`
-
+    position:relative;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -32,7 +34,7 @@ const Wraper = styled.div`
     animation:lan 2s linear;
 `
 const Body = styled.div`
-    color:white;
+    color:${({theme})=>theme.main_color};
     
     width:624px;
     
@@ -50,10 +52,10 @@ const ProfileImage = styled.img`
     cursor:pointer;
 `
 const Name = styled.span`
-    color:var(--pr300);
+    color:${({theme})=>theme.pr300};
 `
 const Para = styled.p`
-    color:var(--pr500);
+    color:${({theme})=>theme.pr500};
     line-height:11px;
 
 `
