@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/issamoxix.github.io/static/css/main.16e9df53.chunk.css",
-    "main.js": "/issamoxix.github.io/static/js/main.1da84a9e.chunk.js",
-    "main.js.map": "/issamoxix.github.io/static/js/main.1da84a9e.chunk.js.map",
+    "main.css": "/issamoxix.github.io/static/css/main.9c25f642.chunk.css",
+    "main.js": "/issamoxix.github.io/static/js/main.3ba1d62b.chunk.js",
+    "main.js.map": "/issamoxix.github.io/static/js/main.3ba1d62b.chunk.js.map",
     "runtime-main.js": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js",
     "runtime-main.js.map": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js.map",
     "static/js/2.c134dde2.chunk.js": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js",
     "static/js/2.c134dde2.chunk.js.map": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js.map",
     "index.html": "/issamoxix.github.io/index.html",
-    "static/css/main.16e9df53.chunk.css.map": "/issamoxix.github.io/static/css/main.16e9df53.chunk.css.map",
+    "static/css/main.9c25f642.chunk.css.map": "/issamoxix.github.io/static/css/main.9c25f642.chunk.css.map",
     "static/js/2.c134dde2.chunk.js.LICENSE.txt": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js.LICENSE.txt",
     "static/media/profile.83683cf7.png": "/issamoxix.github.io/static/media/profile.83683cf7.png",
     "static/media/undraw1.1c81114d.png": "/issamoxix.github.io/static/media/undraw1.1c81114d.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.f8271f1e.js",
     "static/js/2.c134dde2.chunk.js",
-    "static/css/main.16e9df53.chunk.css",
-    "static/js/main.1da84a9e.chunk.js"
+    "static/css/main.9c25f642.chunk.css",
+    "static/js/main.3ba1d62b.chunk.js"
   ]
 }
