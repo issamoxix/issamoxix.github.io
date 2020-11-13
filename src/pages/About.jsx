@@ -35,6 +35,7 @@ const About = () => {
 const Container = styled.div`
     color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
+    animation:lan 2s linear;
 `
 const HeadTitle = styled.h1`
     font-size:var(--h1-size);

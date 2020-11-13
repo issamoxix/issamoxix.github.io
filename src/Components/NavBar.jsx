@@ -1,11 +1,7 @@
-import React,{useState,useContext} from 'react'
-
+import React from 'react'
 import styled from 'styled-components'
 import {primaryFont} from '../styles/global'
-import sun from '../assets/images/sun.png'
-import moon from '../assets/images/moon.png'
 import { Link } from 'react-router-dom'
-import {ThemeContext} from '../utils/themeContext'
 import ToggleTheme from './ToggleTheme'
 const NavBar = ()=>{
     // const [toggletheme,settoggletheme] = useState(false)

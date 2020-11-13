@@ -12,7 +12,7 @@ export const lightTheme = {
     pr100: "#49cad1",
     pr400: "#1f767a",
     pr300: "#46dbe3",
-    pr200: "#45eef7",
+    pr200: "#1f767a",
     pr500: "#16a1a8",
     main_color:"black",
     bg_color:"#ECECEC"

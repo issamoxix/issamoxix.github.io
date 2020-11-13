@@ -40,5 +40,9 @@ const More = styled.a`
     position:absolute;
     bottom: 0;
     right:0;
+    border-bottom:1px solid transparent;
+    &:hover {
+        border-color:${({theme})=>theme.main_color};
+    }
 `
 export default Proj

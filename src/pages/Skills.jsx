@@ -45,6 +45,7 @@ const Skills = () => {
 const Container =styled.div`
     color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
+    animation:lan 2s linear;
     
 `
 const SkillsContainer = styled.div`

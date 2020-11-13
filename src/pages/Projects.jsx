@@ -38,6 +38,7 @@ const Projects = () => {
 }
 const Container = styled.div`
     color:${({theme})=>theme.main_color};
+    animation:lan 2s linear;
     font-family:${primaryFont}
 `
 const ProjectsTitle = styled.h1`
