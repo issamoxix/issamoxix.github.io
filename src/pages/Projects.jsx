@@ -49,6 +49,10 @@ const ProjContainer = styled.div`
     display:flex;
     flex-direction:row;
     margin-top:20px;
+    @media(max-width:600px){
+        flex-direction:column;
+        margin-bottom:10px;
+    }
 `
 const Projectz = styled.div`
     display:grid;
@@ -56,6 +60,11 @@ const Projectz = styled.div`
     grid-gap:5px;
     grid-template-columns:50% 50%;
     grid-template-rows:auto;
+    @media(max-width:600px){
+        grid-template-columns:auto;
+        width:100%;
+        margin-bottom:10px;
+    }
 `
 
 export default Projects

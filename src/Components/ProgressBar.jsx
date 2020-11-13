@@ -15,11 +15,15 @@ const Container = styled.div`
     height:40px;
     width:30vw;
     border-radius:20px;
+    @media(max-width:600px){
+        width:100%;
+    }
 `
 const Progress = styled.div`
     background-color:var(--pr100);
     
     height:100%;
     border-radius:20px;
+    animation:progress 2s linear;
 `
 export default ProgressBar

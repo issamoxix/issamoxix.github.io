@@ -45,15 +45,24 @@ const AboutBody = styled.div`
     display:flex;
     flex-direction:row;
     justify-content:center;
+    @media(max-width:600px){
+        flex-direction:column;
+    }
 `
 const LeftContainer = styled.div`
 `
 const LeftImage = styled.img`
     height:28rem;
+    @media(max-width:600px){
+    height:14rem;
+    }
 `
 const RightContainer = styled.div`
     width:30%;
-    
+    @media(max-width:600px){
+        width:100%;
+        margin:20px 0; 
+    }
 `
 const AboutTitle = styled.h1`
     color:${({theme})=>theme.pr400};

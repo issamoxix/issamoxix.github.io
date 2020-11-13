@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import {primaryFont} from '../styles/global'
 import { Link } from 'react-router-dom'
 import ToggleTheme from './ToggleTheme'
+
+
 const NavBar = ()=>{
     // const [toggletheme,settoggletheme] = useState(false)
     
@@ -29,9 +31,12 @@ const NavBar = ()=>{
                     Projects
                 </ListItems>
                 </Link>
+            
             </List>
             {/* <ThemeMode src={theme?moon:sun} onClick={()=>setTheme(!theme)} /> */}
             <ToggleTheme/>
+          {/* <Link to='/'><IconHome src={HomeIcon} /></Link> */}
+            
         </Container>
     )
 }
@@ -55,6 +60,9 @@ const ListItems = styled.li`
     transition:all 0.2s linear;
     &:hover {
         color:${({theme})=>theme.pr100};
+    }
+    @media(max-width:600px){
+        margin-right:20px;
     }
 `
 

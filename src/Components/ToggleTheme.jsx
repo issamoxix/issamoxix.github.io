@@ -18,5 +18,8 @@ const ThemeMode = styled.img`
     top:0;
     height:2rem;
     cursor:pointer;
+    @media(max-width:600px){
+        top:-5px;
+    }
 `
 export default ToggleTheme

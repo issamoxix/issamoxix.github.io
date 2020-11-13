@@ -51,9 +51,15 @@ const Container =styled.div`
 const SkillsContainer = styled.div`
     display:flex;
     flex-direction:row;
+    @media(max-width:600px){
+        flex-direction:column;
+    }
 `
 const LeftContainer = styled.div`
     width:50%;
+    @media(max-width:600px){
+        width:100%;
+    }
 `
 const LeftTitle = styled.h1`
     color:${({theme})=>theme.pr400};
@@ -65,6 +71,9 @@ const Para = styled.p`
     color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     font-weight:200;
+    @media(max-width:600px){
+        width:100%;
+    }
 `
 const RightContainer = styled.div`
 
@@ -75,5 +84,8 @@ const Lang = styled.p`
 `
 const Pattern = styled.img`
     margin-top:40px;
+    @media(max-width:600px){
+     width:100%;   
+    }
 `
 export default Skills
