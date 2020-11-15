@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/issamoxix.github.io/static/css/main.67652675.chunk.css",
-    "main.js": "/issamoxix.github.io/static/js/main.f6e534f8.chunk.js",
-    "main.js.map": "/issamoxix.github.io/static/js/main.f6e534f8.chunk.js.map",
+    "main.js": "/issamoxix.github.io/static/js/main.f2079cf4.chunk.js",
+    "main.js.map": "/issamoxix.github.io/static/js/main.f2079cf4.chunk.js.map",
     "runtime-main.js": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js",
     "runtime-main.js.map": "/issamoxix.github.io/static/js/runtime-main.f8271f1e.js.map",
-    "static/js/2.c134dde2.chunk.js": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js",
-    "static/js/2.c134dde2.chunk.js.map": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js.map",
+    "static/js/2.bf569ce7.chunk.js": "/issamoxix.github.io/static/js/2.bf569ce7.chunk.js",
+    "static/js/2.bf569ce7.chunk.js.map": "/issamoxix.github.io/static/js/2.bf569ce7.chunk.js.map",
     "index.html": "/issamoxix.github.io/index.html",
     "static/css/main.67652675.chunk.css.map": "/issamoxix.github.io/static/css/main.67652675.chunk.css.map",
-    "static/js/2.c134dde2.chunk.js.LICENSE.txt": "/issamoxix.github.io/static/js/2.c134dde2.chunk.js.LICENSE.txt",
+    "static/js/2.bf569ce7.chunk.js.LICENSE.txt": "/issamoxix.github.io/static/js/2.bf569ce7.chunk.js.LICENSE.txt",
     "static/media/profile.83683cf7.png": "/issamoxix.github.io/static/media/profile.83683cf7.png",
     "static/media/undraw1.1c81114d.png": "/issamoxix.github.io/static/media/undraw1.1c81114d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f8271f1e.js",
-    "static/js/2.c134dde2.chunk.js",
+    "static/js/2.bf569ce7.chunk.js",
     "static/css/main.67652675.chunk.css",
-    "static/js/main.f6e534f8.chunk.js"
+    "static/js/main.f2079cf4.chunk.js"
   ]
 }
