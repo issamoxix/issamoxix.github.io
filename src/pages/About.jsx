@@ -3,7 +3,9 @@ import styled from 'styled-components'
 import NavBar from '../Components/NavBar'
 import {primaryFont} from '../styles/global'
 import Image1 from '../assets/images/undraw1.png'
-import { Link } from 'react-router-dom'
+
+import { redirect } from '../Components/L_Footer'
+import { social_media } from '../Data/Links'
 const About = () => {
     return (
         <Container>
@@ -26,7 +28,7 @@ const About = () => {
                     to open source and realising ideas .
                     </Para>
                     
-                    <PrimaryButton>Let's Talk</PrimaryButton>
+                    <PrimaryButton onClick={()=>redirect(social_media.twitter)} >Let's Talk</PrimaryButton>
                 </RightContainer>
             </AboutBody>
         </Container>

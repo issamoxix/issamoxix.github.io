@@ -10,7 +10,7 @@ const L_Footer = () => {
         <Container>
             <Icons src={twitter} onClick={()=>redirect(social_media.twitter)} />
             <Icons src={github} onClick={()=>redirect(social_media.github)} />
-            <Icons src={email} />
+            <Icons src={email} onClick={()=>redirect(social_media.github)} />
         </Container>
     )
 }
