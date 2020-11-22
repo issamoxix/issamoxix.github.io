@@ -51,12 +51,14 @@ const Container =styled.div`
 const SkillsContainer = styled.div`
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     @media(max-width:600px){
         flex-direction:column;
     }
 `
 const LeftContainer = styled.div`
     width:50%;
+    
     @media(max-width:600px){
         width:100%;
     }
@@ -71,6 +73,9 @@ const Para = styled.p`
     color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     font-weight:200;
+    @media(max-width:1000px){
+        width:80%;
+    }
     @media(max-width:600px){
         width:100%;
     }

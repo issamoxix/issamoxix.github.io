@@ -46,6 +46,7 @@ const HeadTitle = styled.h1`
 `
 const AboutBody = styled.div`
     display:flex;
+    flex-wrap:wrap;
     flex-direction:row;
     justify-content:center;
     @media(max-width:600px){
@@ -64,6 +65,9 @@ const LeftImage = styled.img`
 const RightContainer = styled.div`
     width:30%;
     animation:slide_right 2s linear;
+    @media(max-width:1000px){
+        width:50%;
+    }
     @media(max-width:600px){
         width:100%;
         margin:20px 0; 
