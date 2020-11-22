@@ -38,6 +38,7 @@ const Container = styled.div`
     color:${({theme})=>theme.main_color};
     font-family:${primaryFont};
     animation:lan 2s linear;
+    overflow:hidden;
 `
 const HeadTitle = styled.h1`
     font-size:var(--h1-size);
@@ -52,6 +53,7 @@ const AboutBody = styled.div`
     }
 `
 const LeftContainer = styled.div`
+    animation:slide_left 2s linear;
 `
 const LeftImage = styled.img`
     height:28rem;
@@ -61,6 +63,7 @@ const LeftImage = styled.img`
 `
 const RightContainer = styled.div`
     width:30%;
+    animation:slide_right 2s linear;
     @media(max-width:600px){
         width:100%;
         margin:20px 0; 
