@@ -5,9 +5,9 @@ import styled from 'styled-components'
  const Input = () => {
     return (
         <Container>
-            <Link to="/About"><PrimaryButton>About</PrimaryButton></Link>
-            <Link to ="Skills"><PrimaryButton>Skills</PrimaryButton></Link>
-            <Link to="Projects"><PrimaryButton>Projects</PrimaryButton></Link>
+            {/* <Link to="/About"><PrimaryButton>About</PrimaryButton></Link> */}
+            {/* <Link to ="Skills"><PrimaryButton>Skills</PrimaryButton></Link> */}
+            {/* <Link to="Projects"><PrimaryButton>Projects</PrimaryButton></Link> */}
         </Container>
     )
 }

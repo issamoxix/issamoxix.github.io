@@ -3,21 +3,21 @@ import Landing from '../pages/Landing'
 import Projects from '../pages/Projects'
 import Skills from '../pages/Skills'
 const Routes = [
-    {
+    // {
         
-        path:'/Projects',
-        component:Projects
-    },
-    {
+    //     path:'/Projects',
+    //     component:Projects
+    // },
+    // {
         
-        path:'/Skills',
-        component:Skills
-    },
-    {
+    //     path:'/Skills',
+    //     component:Skills
+    // },
+    // {
         
-        path:'/About',
-        component:About
-    },
+    //     path:'/About',
+    //     component:About
+    // },
     {
         
         path:'/',
