@@ -1,11 +1,11 @@
 export const ProjectsData = [{
-    Name: "AmazonCrawler",
-    Description: "This is a Python script that extracts product deals from Amazon and downloads their images. The script uses the asyncio and threading modules to perform the image downloads in parallel, improving performance.",
-    Link: "https://github.com/issamoxix/AmazonCrawler"
+    Name: "IssamCloud.com",
+    Description: "File-sharing platform where uploaded files automatically disappear after 24 hours",
+    Link: "https://Issamcloud.com"
 }, {
-    Name: "AnimeGo",
-    Description: "Website that can scrape the anime episode from other websites and the subs are in two languages",
-    Link: "https://github.com/issamoxix/AnimeGo"
+    Name: "LoLMaLeaderboard",
+    Description: "Fullstack website that use RiotGames api to fetch players stats and rank them based on that",
+    Link: "https://github.com/issamoxix/LoLMaLeaderboard"
 },
 {
     Name: "EzScraper",
@@ -24,7 +24,7 @@ export const ProjectsData = [{
 }]
 
 export const SkillsList = [{
-    skills: ["Python", "C#", "Javascript"],
+    skills: ["Python", "GO", "Javascript", "Typescript", "C#"],
     width: "90%"
 },
 {

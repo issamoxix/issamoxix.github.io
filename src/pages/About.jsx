@@ -30,15 +30,15 @@ const About = () => {
                         <br></br>
 
                         <br></br>
-                        🌇 Germany/Berlin , with a passion for Data Science and Automation
+                        🌇 Germany/Berlin , with a passion for Software Engineering Backend and innovative solutions
                         <br></br>
                         <br></br>
 
-                        📚 Started coding since 2015 i was mostly creating websites and automating games , Currently im working as a Student Web Scraper
+                        📚 I began coding in 2015, making websites and automating games. Now, I work as a Software Engineer.
                         <br></br>
                         <br></br>
 
-                        💻 As for my future, I hope to one day work in the field of data
+                        💻 As for what lies ahead, I aim to carve out a fulfilling career path.
                         <br></br>
                         <br></br>
 
@@ -46,7 +46,7 @@ const About = () => {
                         <br></br>
                         <br></br>
 
-                        💪🏽 My strengths : Data scraping , Data cleaning, Python , Learning new tech and Problem solving
+                        💪🏽 My strengths : Making software work, building backend, using Python, learning new tech fast, and solving problems.
                         <br></br>
                         <br></br>
 
