@@ -1,44 +1,43 @@
 export const ProjectsData = [{
     Name: "IssamCloud.com",
-    Description: "File-sharing platform where uploaded files automatically disappear after 24 hours",
+    Description: "File-sharing platform where uploaded files automatically disappear after 24 hours. Django, Svelte, TypeScript, Go & AWS.",
     Link: "https://Issamcloud.com"
 }, {
-    Name: "LoLMaLeaderboard",
-    Description: "Fullstack website that use RiotGames api to fetch players stats and rank them based on that",
-    Link: "https://github.com/issamoxix/LoLMaLeaderboard"
+    Name: "lolma",
+    Description: "Fullstack website that uses the Riot Games API to fetch player stats and rank them. TypeScript, Next.js & MongoDB.",
+    Link: "https://lolma.vercel.app"
 },
 {
     Name: "EzScraper",
-    Description: "Python Script that can scrape data from table in any websites and store it in a .csv ",
+    Description: "Python package that converts HTML tables to CSV files.",
     Link: "https://github.com/issamoxix/EzScraper"
 },
 {
-    Name: "Genesis-Tech",
-    Description: "Website Created with React js for the Genesis Tech Team",
-    Link: "https://github.com/issamoxix/Genesis-Tech"
+    Name: "Survol",
+    Description: "Contributed to the open source Survol browser extension, used by 3000+ users.",
+    Link: "https://github.com/mdolr/survol"
 },
 {
-    Name: "Survol",
-    Description: "I Contributed to the open source extension Survol that is been used by 2000+ Users",
-    Link: "https://github.com/mdolr/survol"
+    Name: "BerlinRentMonitoring",
+    Description: "Python bot that emails you the latest rent offers in Berlin.",
+    Link: "https://github.com/issamoxix/BerlinRentMonitoring"
 }]
 
-export const SkillsList = [{
-    skills: ["Python", "GO", "Javascript", "Typescript", "C#"],
-    width: "90%"
-},
-{
-    skills: ["Html", "Css", "React", "Node"],
-    width: "80%"
-},
-{
-    skills: ["graphql", "mysql", "typscript"],
-    width: "60%"
-
-}, {
-    skills: ["postgresql", "mongodb"],
-    width: "50%"
-
-}
-
+export const SkillsList = [
+    {
+        category: "Languages",
+        skills: ["Python", "C#", "Go", "JavaScript", "TypeScript"]
+    },
+    {
+        category: "Technologies",
+        skills: ["Django", "Flask", "FastAPI", "Apache Airflow", "Node.js", "Pandas", "React", "Next.js"]
+    },
+    {
+        category: "Databases",
+        skills: ["SQL", "NoSQL", "MongoDB", "Postgres", "MySQL", "Redis"]
+    },
+    {
+        category: "Tools",
+        skills: ["AWS", "Azure", "Docker", "Kubernetes", "gRPC", "Kafka", "RabbitMQ", "GraphQL", "Jira", "Git"]
+    }
 ]

@@ -3,14 +3,16 @@ import styled from 'styled-components'
 import twitter from '../assets/images/twitter.png'
 import github from '../assets/images/github.png'
 import email from '../assets/images/email.png'
+import linkedin from '../assets/images/linkedin.svg'
 import { social_media } from '../Data/Links'
 const L_Footer = () => {
     
     return (
         <Container>
-            <Icons src={twitter} onClick={()=>redirect(social_media.twitter)} />
-            <Icons src={github} onClick={()=>redirect(social_media.github)} />
-            <Icons src={email} onClick={()=>redirect(social_media.github)} />
+            <Icons src={linkedin} alt="LinkedIn" onClick={()=>redirect(social_media.linkedin)} />
+            <Icons src={github} alt="GitHub" onClick={()=>redirect(social_media.github)} />
+            <Icons src={twitter} alt="Twitter" onClick={()=>redirect(social_media.twitter)} />
+            <Icons src={email} alt="Email" onClick={()=>redirect(social_media.email)} />
         </Container>
     )
 }

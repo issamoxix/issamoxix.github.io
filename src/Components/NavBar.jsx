@@ -21,6 +21,11 @@ const NavBar = ()=>{
                     About
                 </ListItems>
                 </Link>
+                <Link to="/Experience">
+                <ListItems>
+                    Experience
+                </ListItems>
+                </Link>
                 <Link to="/Skills">
                 <ListItems>
                     Skills
@@ -50,6 +55,8 @@ const List = styled.ul`
     list-style:none;
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
+    row-gap:10px;
     font-family:${primaryFont};
     margin-left:10px;
 `

@@ -25,35 +25,31 @@ const About = () => {
                         👋🏽 Hi, my name is Issam Haidaoui
                         <br></br>
                         <br></br>
-
-                        🎓 Bachelor in Physics.
-                        <br></br>
-
-                        <br></br>
-                        🌇 Germany/Berlin , with a passion for Software Engineering Backend and innovative solutions
+                        🚀 CTO at Voicari, a Berlin pet-tech startup building an AI health-tracking collar for dogs.
                         <br></br>
                         <br></br>
-
-                        📚 I began coding in 2015, making websites and automating games. Now, I work as a Software Engineer.
+                        🛠 Before that: Senior Backend Engineer at truemetrics (YC S23) and Backend Engineer at HQ revenue, building Python services, scrapers and data pipelines on AWS.
                         <br></br>
                         <br></br>
-
-                        💻 As for what lies ahead, I aim to carve out a fulfilling career path.
+                        🌇 Based in Berlin, Germany.
                         <br></br>
                         <br></br>
-
-                        🏔 In my free time , you can find me playing games or coding something that is related to gaming
+                        🎓 Bachelor in Physics, University Hassan II.
                         <br></br>
                         <br></br>
-
-                        💪🏽 My strengths : Making software work, building backend, using Python, learning new tech fast, and solving problems.
+                        📚 I began coding in 2015, making websites and automating games.
                         <br></br>
                         <br></br>
-
-                        👨‍💻 You can find all my projects in github @issamoxix
+                        💪🏽 My strengths: building backends and cloud infrastructure, Python, learning new tech fast, and solving problems.
+                        <br></br>
+                        <br></br>
+                        🏔 In my free time, you can find me playing games or coding something related to gaming.
+                        <br></br>
+                        <br></br>
+                        👨‍💻 You can find my projects on GitHub @issamoxix
                     </Para>
 
-                    <PrimaryButton onClick={() => redirect(social_media.twitter)} >Let's Talk</PrimaryButton>
+                    <PrimaryButton onClick={() => redirect(social_media.linkedin)} >Let's Talk</PrimaryButton>
                 </RightContainer>
             </AboutBody>
         </Container>

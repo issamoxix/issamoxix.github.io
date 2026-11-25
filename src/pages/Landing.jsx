@@ -16,7 +16,7 @@ const Landing = () => {
                     <h1>
                         Hi Im <Name>Issam</Name>
                     </h1>
-                    <Para>Software Engineer</Para>
+                    <Para>CTO @ Voicari</Para>
                 </Header>
                 <Input/>
                 <L_Footer />
